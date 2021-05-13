@@ -13,6 +13,7 @@ from text_preprocessing import preprocessing,vectorizer
 # configurations
 FILE_PATH = os.path.join('data','articles.csv')
 content_col = 'text'
+num_top_similar_docs = 1
 
 # Reading the csv file of texts/documents/queries (corpus)
 df = pd.read_csv(FILE_PATH, delimiter=',', encoding='ISO-8859-1')
@@ -29,9 +30,10 @@ features = text_vectorizer.tfidf_vectorizor.get_feature_names()
 
 print(f'Length of total features considered: {len(features)}')
 
-user_question = ['Our hopes were sky high. Bright-eyed and bushy-tailed, the industry was ripe for a new era of ']
+print(f'Enter your text input here:')
+search_text = input()
 search_start = time.time()
-sim_vecs, cosine_similarities = text_vectorizer.calculate_similarity(tfidf_mat, user_question,top_k=1)
+sim_vecs, cosine_similarities = text_vectorizer.calculate_similarity(tfidf_mat, [search_text],top_k=num_top_similar_docs)
 search_time = time.time() - search_start
 print("search time: {:.2f} ms".format(search_time * 1000))
 print(f'similar documents:')
