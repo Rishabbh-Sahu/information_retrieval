@@ -14,17 +14,19 @@ from text_preprocessing import preprocessing,vectorizer
 FILE_PATH = os.path.join('data','articles.csv')
 content_col = 'text'
 num_top_similar_docs = 1
+encoding = 'ISO-8859-1'
+# maximum terms to be considered for calculating documents similarity
+max_features = 30000
 
 # Reading the csv file of texts/documents/queries (corpus)
-df = pd.read_csv(FILE_PATH, delimiter=',', encoding='ISO-8859-1')
-# df = pd.read_csv(FILE_PATH, delimiter=',', encoding='utf-8')
+df = pd.read_csv(FILE_PATH, delimiter=',', encoding=encoding)
 print('Corpus is ready!!')
 
 # Preprocess the corpus
 data = [preprocessing.text_preprocessing(text) for text in df[content_col]]
 
 # Learn vocabulary and inverse document frequency (idf), and get tf-idf matrix
-text_vectorizer = vectorizer.TFIDF(max_features=20000)
+text_vectorizer = vectorizer.TFIDF(max_features)
 tfidf_mat = text_vectorizer.create_tfidf_features(data)
 features = text_vectorizer.tfidf_vectorizor.get_feature_names()
 
