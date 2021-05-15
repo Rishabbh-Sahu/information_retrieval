@@ -5,8 +5,8 @@ Based on tf-idf matrix, searching for the closest documents within the list of d
 create virtual environment<br>
 install requirements
 
-##### For training and getting more similar documents - 
-python info.py
+##### For building tf-idf matrix and getting similar documents - 
+python find_similar_text.py
 
 ##### Where to use:
 1) Whenever you need to browse thru huge number of articles to find the most closest one w.r.t. your task, you can use tf-idf based matrix multiplication to achieve this very quickly
