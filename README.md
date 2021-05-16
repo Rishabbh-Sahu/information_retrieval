@@ -2,7 +2,7 @@
 Based on tf-idf matrix, searching for the closest documents within the list of documents.
 
 #### How it works
-Based on the concept of matrix multiplication which is really fast, i thought of representing every document/text/queries in the nuumeric form. Tf-idf is one of the text vectorization method which i've used here in order to create numeric representation of the input corpus. Once you have the tf-idf vector representation, you can leverage this metrix to compute cosine similarity with any other similar vector. 
+Based on the concept of matrix multiplication which is really fast, I thought of representing every document/text/queries in the numeric form (else you can't perform matrix multiplication -> core idea of d). Tf-idf is one of the text vectorization method which i've used here in order to create numeric representation of the input corpus. Once you have the tf-idf vector representation, you can leverage this metrix to compute cosine similarity with any other similar vector. 
 
 #### Getting started
 create virtual environment<br>
