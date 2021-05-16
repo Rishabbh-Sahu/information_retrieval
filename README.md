@@ -1,5 +1,8 @@
 # information_retrieval
-Based on tf-idf matrix, searching for the closest documents within the list of documents. 
+Based on tf-idf matrix, searching for the closest documents within the list of documents.
+
+#### How it works
+Based on the concept of matrix multiplication which is really fast, i thought of representing every document/text/queries in the nuumeric form. Tf-idf is one of the text vectorization method which i've used here in order to create numeric representation of the input corpus. 
 
 #### Getting started
 create virtual environment<br>
