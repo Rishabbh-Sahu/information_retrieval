@@ -17,6 +17,12 @@ python find_similar_text.py
 2) For queries where your model fail to predict the right class (sentiments/intents etc.), this repo can help you identify queries which is of similar pattern or use same type of vocab
 3) To merge similar type of patterns/documents since it's always better to have more discernible group
 
+#### Further improvements:
+Using different techniques of text vectorization 
+- Binary Term Frequency
+- Bag of Words (BoW) Term Frequency
+
+
 #### References - 
 Data set is all about "Medium Articles", A collection of articles on ML, AI and data science. Download link - https://www.kaggle.com/hsankesara/medium-articles?select=articles.csv
 
