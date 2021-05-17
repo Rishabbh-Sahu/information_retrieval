@@ -21,7 +21,9 @@ python find_similar_text.py
 Using different techniques of text vectorization 
 - Binary Term Frequency
 - Bag of Words (BoW) Term Frequency
-
+- (L1) Normalized Term Frequency
+- (L2) Normalized TF-IDF (currently in use)
+- Word2Vec
 
 #### References - 
 Data set is all about "Medium Articles", A collection of articles on ML, AI and data science. Download link - https://www.kaggle.com/hsankesara/medium-articles?select=articles.csv
