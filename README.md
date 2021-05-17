@@ -18,7 +18,8 @@ python find_similar_text.py
 3) To merge similar type of patterns/documents since it's always better to have more discernible group
 
 #### Further improvements:
-Using different techniques of text vectorization 
+1) By leveraging text pre-processing options like stemming, lemmitization. The advantage of using them upfront is to not only reduce the matrix sparsity but also help with more informed similarity matchin using lemma/root word (which might get missed out due to inflictions)
+2) Using different techniques of text vectorization 
 - Binary Term Frequency
 - Bag of Words (BoW) Term Frequency
 - (L1) Normalized Term Frequency
