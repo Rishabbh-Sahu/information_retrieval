@@ -16,7 +16,7 @@ content_col = 'text'
 num_top_similar_docs = 1
 encoding = 'ISO-8859-1'
 # maximum terms to be considered for calculating documents similarity
-max_features = 30000
+max_features = 30000 #optimize this parameter based on your corpus
 
 # Reading the csv file of texts/documents/queries (corpus)
 df = pd.read_csv(FILE_PATH, delimiter=',', encoding=encoding)
