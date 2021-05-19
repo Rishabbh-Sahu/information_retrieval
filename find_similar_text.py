@@ -14,7 +14,7 @@ from text_preprocessing import preprocessing,vectorizer
 FILE_PATH = os.path.join('data','articles.csv')
 content_col = 'text'
 num_top_similar_docs = 1
-encoding = 'ISO-8859-1' #Can try utf-8 and others again, depends on the raw text
+encoding = 'ISO-8859-1' #Can try utf-8 and others, depending on the raw text
 # maximum terms to be considered for calculating documents similarity
 max_features = 30000 #optimize this parameter based on your corpus
 
