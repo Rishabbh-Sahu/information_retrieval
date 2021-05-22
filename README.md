@@ -12,12 +12,12 @@ install requirements
 #### For building tf-idf matrix and getting similar documents - 
 python find_similar_text.py
 
-#### Where to use:
+#### Where to use -
 1) Whenever you need to browse thru huge number of articles to find the most closest one w.r.t. your task, you can use tf-idf based matrix multiplication to achieve this very quickly
 2) For queries where your model fail to predict the right class (sentiments/intents etc.), this repo can help you identify queries which is of similar pattern or use same type of vocab
 3) To merge similar type of patterns/documents since it's always better to have more discernible group
 
-#### Further improvements:
+#### Further improvements-
 1) By leveraging text pre-processing options like stemming, lemmitization. The advantage of using them upfront is to not only reduce the matrix sparsity but also help with more informed similarity matching using lemma/root of the word (which might get missed out due to inflectional endings)
 2) Using different techniques of text vectorization 
 - Binary Term Frequency
