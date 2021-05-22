@@ -5,7 +5,7 @@ Based on tf-idf matrix, searching for the closest documents within the list of d
 Based on the concept of matrix multiplication which is really fast, I thought of representing every document/text/queries in the numeric form (else you can't perform matrix multiplication -> core idea of deep learning as well). Tf-idf is one of the 'text vectorization' method which is being used in order to transform corpus into numeric representation. Once you have the tf-idf vector (metrix) representation, you can leverage this metrix to compute cosine similarity with any other similar vector which can be used to find most closest doc/text/query present in the corpus. This enables us to find those closest/similar patterns in a very short duration.
 
 
-#### Getting started
+#### Getting started -
 create virtual environment<br>
 install requirements
 
