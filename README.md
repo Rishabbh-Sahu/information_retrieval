@@ -22,10 +22,10 @@ python find_similar_text.py <br>
 1) By leveraging text pre-processing options like stemming, lemmitization. The advantage of using them upfront is to not only reduce the matrix sparsity but also help with more informed similarity matching using lemma/root of the word (which might get missed out due to inflectional endings)
 2) Using different techniques of text vectorization
 - Binary Term Frequency
-- Bag of Words (BoW) Term Frequency
+- Bag of Words(BoW) Term Frequency
 - (L1) Normalized Term Frequency
-- (L2) Normalized TF-IDF (currently in use)
-- Word2Vec (have a look at genesim) 
+- (L2) Normalized tf-idf (currently in use)
+- Word2Vec (kindly have a look at genesim for pre-trained embeddings) 
 3) Using semantic similarity from pre-trained language models (bert, albert , transformer based model etc.)
 
 #### References: 
