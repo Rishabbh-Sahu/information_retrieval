@@ -26,7 +26,7 @@ python find_similar_text.py <br>
 - (L1) Normalized Term Frequency
 - (L2) Normalized tf-idf (currently in use)
 - Word2Vec (kindly have a look at genesim for pre-trained embeddings) 
-3) Using semantic similarity from pre-trained language models (bert, albert , transformer based model etc.)
+3) Using semantic similarity from pre-trained language models (bert, albert , transformer based model etc). Implemented here - https://github.com/Rishabbh-Sahu/semantic_lookalike_transformers
 
 #### References: 
 Data set is all about "Medium Articles", A collection of articles on ML, AI and data science. Download link - https://www.kaggle.com/hsankesara/medium-articles?select=articles.csv
