@@ -1,4 +1,4 @@
-# information_retrieval
+# Information Retrieval
 Based on tf-idf matrix (vectors), searching for the closest documents within the list of documents leveraging cosine similarity.
 
 #### How it works:
