@@ -26,6 +26,7 @@ python find_similar_text.py <br>
 - (L1) Normalized Term Frequency
 - (L2) Normalized tf-idf (currently in use)
 - Word2Vec (kindly have a look at genesim for pre-trained embeddings) 
+- flairNLP library (entials most of the available pre-learned embeddings)
 3) Using semantic similarity from pre-trained language models (bert, albert , transformer based model etc). Implemented here - https://github.com/Rishabbh-Sahu/semantic_lookalike_transformers
 
 #### References: 
