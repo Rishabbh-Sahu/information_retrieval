@@ -14,7 +14,7 @@ python find_similar_text.py <br>
 (Above script supports user interactions, kindly check by entering text/pattern and the output would be the closest articles present based on your input)
 
 #### Where to use:
-1) Whenever you need to browse thru huge number of articles to find the most closest one w.r.t. your task, you can use **tf-idf based matrix multiplication** to achieve this very quickly
+1) Browsing through huge number of articles, to find the most closest one w.r.t. your task, you can use **tf-idf based matrix multiplication** to achieve it very quickly
 2) For queries where your model fail to predict the right class (sentiments/intents etc.), this repo can help you identify queries which is of similar pattern or use same type of vocab
 3) To merge similar type of patterns/documents since it's always better to have more discernible group
 
