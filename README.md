@@ -11,7 +11,9 @@ create virtual environment<br>
 install requirements
 
 #### For building tf-idf matrix and getting similar documents: 
-python find_similar_text.py <br>
+```
+python find_similar_text.py
+``` 
 (Above script supports user interactions, kindly check by entering text/pattern and the output would be the closest articles present based on your input)
 
 #### Where to use:
