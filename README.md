@@ -1,5 +1,5 @@
 # Information Retrieval
-An essential and key advantage of NLP is 'information retrieval' from the vast amount of information available (now a days), google search is the perfect example of this. Based on **tf-idf matrix (vectors), searching for the closest documents within the list of documents, 'leveraging cosine similarity' (illustrated here [image](https://user-images.githubusercontent.com/69572197/141833763-bd659ea3-5476-4e49-8f4c-a348eb40a162.png)).**
+An essential and key advantage of NLP is 'information retrieval' from the vast amount of information available (now a days), google search is the perfect example of this. Based on **tf-idf matrix (vectors), searching for the closest documents within the list of documents, leveraging 'cosine similarity' (illustrated here [image](https://user-images.githubusercontent.com/69572197/141833763-bd659ea3-5476-4e49-8f4c-a348eb40a162.png)).**
 
 
 #### How it works:
