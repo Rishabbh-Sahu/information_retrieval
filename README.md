@@ -14,7 +14,7 @@ install requirements
 ```
 python find_similar_text.py
 ``` 
-(Above script supports user interactions, kindly check by entering text/pattern and the output would be the closest articles present based on your input)
+(Above script supports user interactions, do check by entering text/pattern and the output would be the closest articles present based on your input)
 
 #### Where to use:
 1) Browsing through huge number of articles, to find the most closest one w.r.t. your task, you can use **tf-idf based matrix multiplication** to achieve it very quickly
