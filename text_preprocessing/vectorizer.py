@@ -9,7 +9,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 class TFIDF:
 
-    def __init__(self,max_features=30000):
+    def __init__(self,max_features=50000):
 
         super(TFIDF,self).__init__()
         self.max_features = max_features
