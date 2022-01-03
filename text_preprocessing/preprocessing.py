@@ -15,6 +15,7 @@ def text_preprocessing(text_str: str, remove_digit=True, remove_punctuations=Tru
     txt = ''
     # normalize to lower case
     txt = text_str.lower()
+    
     # remove tags
     txt = re.sub('</?.*?>', ' <> ', txt)
 
