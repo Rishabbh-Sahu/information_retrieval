@@ -9,7 +9,7 @@ import re     #for text pre-processing
 def text_preprocessing(text_str: str, remove_digit=True, remove_punctuations=True):
     """
     text pre-preprocess of the input like normalization, special tags (html,chars) removal, removing digits is optional
-    txt: of type str
+    text_str: string to be pre-processed
     return: cleaned text
     """
     txt = ''
