@@ -45,5 +45,5 @@ class TFIDF:
         for index in similar_doc_indices:
             print('Top-{}, Similarity = {}'.format(counter, cosine_similarities[index]))
             print('body: {}, '.format(df[index]))
-            print()
+            
             counter += 1
