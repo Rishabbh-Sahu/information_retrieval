@@ -8,7 +8,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 class TFIDF:
-
+    '''
+    This class helps in representing text to their numeric equivalent by spliting stream of strings into tokens (words) and 
+    using their normalize values (L2 in this case) to create the numberic matrics. 
+    '''
     def __init__(self,max_features=50000):
 
         super(TFIDF,self).__init__()
