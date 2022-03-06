@@ -33,5 +33,5 @@ python find_similar_text.py
 3) Using semantic similarity from pre-trained language models (bert, albert , transformer based model etc). Find implemention with BERT👉  https://github.com/Rishabbh-Sahu/semantic_lookalike_transformers
 
 #### References:
-Data set is all about "Medium Articles", A collection of articles on ML, AI and data science. Download link - https://www.kaggle.com/hsankesara/medium-articles?select=articles.csv
+Data set is all about "Medium Articles", A collection of articles on ML, AI and data science. Download link 👉 https://www.kaggle.com/hsankesara/medium-articles?select=articles.csv
 
