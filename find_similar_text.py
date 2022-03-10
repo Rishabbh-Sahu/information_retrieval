@@ -32,7 +32,7 @@ features = text_vectorizer.tfidf_vectorizor.get_feature_names()
 
 print(f'Length of total features considered: {len(features)}')
 
-# Letting user enter the text to find closest 'sequnce of words' that matches this input 
+# Letting user enter the text to find the closest 'sequnce of words' that matches this input 
 print(f'Enter your text input here:')
 search_text = input()
 search_start = time.time()
