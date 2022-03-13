@@ -6,7 +6,7 @@ import string
 import re     #for text pre-processing
 
 
-def text_preprocessing(text_str: str, remove_digit=True, remove_punctuations=True):
+def text_preprocessing(text_str: str, remove_digit=True, remove_punctuations=True) -> str:
     """
     text pre-preprocess of the input like normalization, special tags (html, chars) removal, removing digits is optional
     text_str: string to be pre-processed
