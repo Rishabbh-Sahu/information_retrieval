@@ -39,5 +39,5 @@ search_start = time.time()
 sim_vecs, cosine_similarities = text_vectorizer.calculate_similarity(tfidf_mat, [search_text],top_k=num_top_similar_docs)
 search_time = time.time() - search_start
 print("search time: {:.2f} ms".format(search_time * 1000))
-print('similar documents:')
+print("similar documents:")
 text_vectorizer.show_similar_texts(data, cosine_similarities, sim_vecs)
