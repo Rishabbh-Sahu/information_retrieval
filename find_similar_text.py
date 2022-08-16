@@ -12,7 +12,7 @@ from text_preprocessing import preprocessing,vectorizer
 
 # configurations
 FILE_PATH = os.path.join('data','articles.csv')
-content_col = 'text'
+content_col = "text"
 num_top_similar_docs = 1
 ENCODING = 'ISO-8859-1' #Can try utf-8 and others, depending on the raw text
 # maximum terms to be considered for calculating documents similarity
