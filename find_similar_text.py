@@ -20,7 +20,7 @@ max_features = 30000 #optimize this parameter based on your corpus
 
 # Reading the csv file of texts/documents/queries (corpus)
 df = pd.read_csv(FILE_PATH, delimiter=',', encoding=ENCODING)
-print('Corpus is ready!!')
+print("Corpus is ready!!")
 
 # Preprocess the corpus
 data = [preprocessing.text_preprocessing(text) for text in df[content_col]]
