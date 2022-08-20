@@ -33,7 +33,7 @@ features = text_vectorizer.tfidf_vectorizor.get_feature_names()
 print(f'Length of total features considered: {len(features)}')
 
 # Letting user enter the text to find the closest 'sequnce of words' that matches this input 
-print('Enter your text input here:')
+print("Enter your text input here:")
 search_text = input()
 search_start = time.time()
 sim_vecs, cosine_similarities = text_vectorizer.calculate_similarity(tfidf_mat, [search_text],top_k=num_top_similar_docs)
